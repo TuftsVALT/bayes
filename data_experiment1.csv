@@ -1,0 +1,125 @@
+participant_ID,condition,task_numCorrect,taskInput_confidence,taskInput_a,taskInput_b,spatial_score,numeracy_score,age,gender,education,familiar,trained,time_diff_task_solution,time_diff_spatial-part1,time_diff_spatial-part2,taskInput_explanation
+hwnuo43f,text_orig,0,5,1000,103,9.25,3,29,female,college,yes,no,15472,181017,96251, 8 out of 10 with brest cancer get a positive mammography. so 8 is confirmed. 95 out of 990 without cancer get  positive mammography. so 95 confirmed. so total 103
+hwnv1b35,text_orig,1,3,1000,8,10.25,4,28,male,professional school,no,no,69840,147390,149596, 10 out of 1000 at age of forty have breast cancer.Amoung them 8 out of 10 have positive mammography.So 8 out of 1000 positive mammography.
+hwnt6qh3,text_orig,1,5,10,8,2.5,3,25,male,graduate school,no,yes,18889,160336,46558, It is said that 8 out of every 10 women will have positive mammography
+hwnuxa0x,text_orig,1,4,10,8,6.25,3,25,male,PhD,yes,no,5048,109472,90231, correct
+hwny8mh2,text_orig,1,5,10,8,3.75,5,44,male,graduate school,no,no,76594,140276,107767," As it is explained in the scenario, 8/10 women with breast cancer have a positive mammography."
+hwnxumgx,text_orig,0,5,100,1,7.5,5,42,male,high school,yes,no,33502,157956,106625, 1 out of 100 is the same probability as 10 out 1000
+hwnytql0,text_orig,2,4,103,8,15.5,4,25,male,college,no,no,236400,181003,175928,-
+hwnz0jtu,text_orig,0,1,1000,25,15.25,5,58,female,high school,no,no,54667,181001,154299,"I just took a guess at it, can't figure it out from what was given to me. Too many numbers. "
+hwntq516,text_orig,0,2,800,200,3.75,3,24,male,graduate school,no,no,145817,104380,126567,i just calculated...
+hwntibrs,text_orig,0,2,990,95,-1.25,0,24,male,professional school,no,no,35693,42578,20995,-
+hwnuhncv,text_orig,1,5,10,8,1.25,3,25,male,college,no,no,34973,113306,82210, the statements are clear that with breast cancer will get a positive mammography
+hwnt2f3k,text_orig,2,5,103,8,1.75,4,39,male,college,no,no,917737,181022,104066," break it into those women who really o haveBC and those who don't:
+ 
+1. really do have BC = 10...8 will test positive
+2. no BC = 990 .... 95 will test positive
+so total positive on screening = 103/1000
+
+with 8 real BC cases.
+Then actual BC/testing positive = 8/103"
+hwnx99q6,text_orig,1,3,10,8,11.5,3,65,male,professional school,no,no,84646,181040,181019, It was given in the above para.
+hwnsyx58,text_orig,0,2,1000,200,1.25,0,29,female,high school,no,no,47904,86755,59666, Using percentages
+hwnxstng,text_orig,0,5,1000,10,0.25,4,26,male,high school,no,no,28445,78833,48665,That seems to be the most likely number.
+hwnxr1oj,text_orig,0,3,100,1,3.75,2,21,female,college,no,no,256348,136703,72400, Averaged the amounts.
+hwo0zgp7,text_orig,0,3,100,10,2.5,2,27,male,graduate school,yes,yes,65922,67821,68207, 
+hwnwr3wf,text_orig,0,4,1000,10,5,2,20,female,college,no,no,41507,108431,147558, By the scenario above
+hwnws000,text_orig,1,5,10,8,4.75,4,55,male,professional school,no,no,69762,181203,125767,-
+hwnsw1ze,text_orig,0,5,1000,10,2.5,4,24,male,college,no,no,45348,134250,202662,-
+hwnu7d66,text_orig,1,3,10,8,1.75,5,38,male,college,no,no,97688,131087,109122,This is the number who have a positive mammography. 
+hwnuiqid,text_orig,1,4,10,8,-0.75,2,28,female,postdoctoral,yes,no,37296,181013,68650, this is correct 
+hwnui88o,text_orig,0,5,1000,10,5,3,24,male,graduate school,no,no,101643,94045,77470,My answer is correct. In the scenario they told that 10 out of 1000 women at age of forty have breast cancer.
+hwnv2wop,text_orig,0,4,1000,10,11.75,4,40,female,college,yes,yes,38890,180990,182481,-
+hwnspibp,text_orig,0,4,10,2,0,3,48,female,graduate school,no,no,21761,61283,59500, positive means good in this case although medically it means bad
+hwo0toxu,text_orig,1,2,19,8,14.25,5,45,male,college,no,no,470654,180996,146282," Nearly one percent of women that don't have cancer will get a positive result, and 8 out of 10 with cancer will get a positive result. SO combined those number."
+hwny9g8s,text_orig,0,2,10,9,11.5,4,23,female,high school,no,no,113742,181039,162808, I combined the 8 out of 10 and 95 out of 990 and got about 90% of women which is 9/10
+hwnsr57s,text_orig,0,5,990,95,2.5,1,26,male,college,no,no,56065,47304,27194, 
+hwnzll4a,text_orig,0,4,1000,103,17.75,5,24,female,college,no,no,69620,176081,181038, Added the number of women out of 1000 who has a positive mammography
+hwntite1,text_orig,1,5,10,8,5,3,25,male,college,no,no,19145,114149,135833, 
+hwnslize,text_orig,0,5,1000,10,9.25,3,29,male,graduate school,no,no,632105,181003,180977,i get this result because 10 out of 1000 have actually brest cancer
+hwnu6vq5,text_orig,0,4,1000,103,1.25,3,28,male,college,yes,no,9753,128280,67163, 8/10 having breast cancer get positive mammography.95/990 without breast cancer get positive mammography.. so probability of actual cancer 95+8=103
+hwnzckq0,text_orig,0,5,10,1,0.75,3,62,female,graduate school,no,no,84982,142945,79744, The percentage of 10:1000 put in a smaller ratio.
+hwntfi60,text_orig,0,5,1000,97,6.5,3,34,male,graduate school,no,no,27675,181015,180970,Among thousand 2 from 10 people and 95 from 990 will get positive mammography
+hwnv0r99,text_orig,1,5,10,8,5,2,25,female,college,no,no,9699,145026,170777, I AM VERY CONFIDENT ON  MY ANSWER 
+hwnvd9jn,text_orig,1,5,1000,8,7.5,4,48,male,graduate school,no,no,69777,180972,181042, THIS IS CONFIRM 
+hwnuixat,text_orig,0,5,95,990,3.75,2,20,male,college,yes,yes,16624,78247,87688, no comments 
+hrwmvjss,text_probe,2,3,103,8,11.25,5,24,male,college,no,no,133957,181033,93165," 95+8=103
+
+
+
+"
+hrwug9eb,text_probe,0,5,8,95,2.5,3,23,male,graduate school,yes,yes,53942,181000,128573,-
+hrwtp9mv,text_probe,0,2,95,25,-0.5,1,30,female,graduate school,yes,yes,67137,56915,25207, thank you
+hrws7mew,text_probe,0,5,4,4,0,0,26,male,professional school,yes,no,14323,66464,42427, good
+hrwo2f67,text_probe,2,3,103,8,18.75,5,38,female,graduate school,yes,no,51204,174420,168439, 8 breast cancer patients and 95 without it test positive = 103 people. 
+hrwun12s,text_probe,2,5,103,8,8.5,5,33,male,professional school,no,no,109696,180995,180996," Only 10 of the 1000 women will have breast cancer, and 8 of those will test positive. Out of the remaining women, 95 will test positive. 95+8=103"
+hrwomsfo,text_probe,1,3,103,10,1.25,3,19,male,high school,no,no,203162,55087,40432,"In question a, 8+95 is equal to 103 and, in question b, it is given that 10 out of 1000 women who participate i screening have breast cancer."
+hrwx1alx,text_probe,0,2,95,990,0.5,1,27,male,professional school,yes,yes,22049,36390,13068, 
+hrwvwodq,text_probe,0,4,800,200,6.25,3,55,male,college,no,no,11055,166803,153623, Actually 8 of every 10 woman have breast cancer so i have decided.
+hrwv47qs,text_probe,0,2,95,10,5,1,39,male,postdoctoral,yes,yes,22737,43556,20658,-
+hrwmvupv,text_probe,1,5,8,8,12.75,3,29,female,graduate school,no,yes,644315,181306,181237, I believe that my answer is correct.
+hrwws71z,text_probe,2,1,103,8,6,4,33,male,professional school,no,no,930114,181297,182544, 8+95
+hrwvco5a,text_probe,0,3,10,9,7.25,4,44,male,college,no,no,45848,181045,176211," The screening is a mammography and not all positivly mammographed women have breast cancer, so it should be less than 10 out of 1000 who actually do have it."
+hrwva3u2,text_probe,0,4,800,200,7.5,3,42,female,graduate school,no,no,79609,167211,173137,Because 80% of them are having breast cancer.Also 8 of every 10 women will have breast cancer
+hrwwntuk,text_probe,1,4,103,82,11.5,4,34,male,professional school,no,no,536636,141029,180994,"10 out of every 1000 women have breast cancer. But out of them only 8 will test positive. 95 out of 1000 also get positive, totaling to 103. "
+hrwlz0xw,text_probe,0,2,150,100,-0.75,0,28,male,graduate school,yes,yes,12263,50001,52720, IT IS VERY USEFUL INFORMAITON IN THIS SURVEY. I LIKE IT
+hrwx0emt,text_probe,0,2,95,990,2.5,1,27,male,professional school,yes,yes,47868,26268,20750,-
+hrwxs6ru,text_probe,2,4,103,8,10.5,2,26,female,college,no,no,135369,181124,161391,"I derived my answer in the following manners such as if there are 1000 women, for every 10 person 8 are considered to have positive effect and the remaining 990 women 95 are considered to have the positive result so 8+95=103. if 10 women with breast cancer are taking the test only 8 women are considered to have the positive result. so i choose 8"
+hrwphfcw,text_probe,2,4,103,8,12.5,3,48,female,college,no,yes,305304,181024,181025," 8 of the 1st 10 will test positive PLUS 95 of the remaining 990 = 103.  10 will have cancer, but only 8 of those 10 will test positive."
+hrwvfbyj,text_probe,1,1,10,8,-1.25,3,33,male,graduate school,no,no,637933,143339,156720, I've made a calculated risk.
+hrwv917k,text_probe,0,3,95,990,1.25,1,29,male,professional school,yes,yes,11394,22206,16305,-
+hrwo82e2,text_probe,2,3,103,8,6.75,3,57,female,high school,no,no,613025,181355,181394,"8 of 10 test positive; 95 of 990 test positive; 8+95=103
+10 of 1000 have cancer; 8 of the 10 will test positive"
+hrwvtuyc,text_probe,0,5,800,200,6.25,3,61,female,college,no,no,60368,154050,173743,Every 8 out of 10 will get a positive mammography. So for 1000 -800 will be getting positive and 200 will have disease.
+hrwnuwdb,text_probe,1,3,10,8,5.75,3,23,male,college,yes,no,90226,180996,181007,-
+hrws3pw4,text_probe,1,4,10,8,10,4,27,female,professional school,no,no,16863,174178,139301, WITH THE ABOVE MENTIONED
+hrwtfnm7,text_probe,2,3,103,8,14.5,5,28,male,college,no,no,602312,167242,164960,"1000 are tested, 10 have cancer, 8 cases will be positive.
+Of the remainder, 990, 95 will be positive, thus 103 positive tests.
+
+"
+hrwvtwi9,text_probe,0,5,800,200,7.5,2,46,male,college,no,no,78860,181072,157775, The above instructions clearly shows that 80% are having breast cancer
+hrwne32i,text_probe,1,3,104,8,13,6,24,female,college,no,no,232120,181031,90580,"I used cross multiplication to find out 95/990=x/1000, and then added 8, which is the number of women who will test positive from actually having breast cancer."
+hrwqh2mq,text_probe,0,2,80,75,0.25,3,23,female,high school,no,no,78704,107053,72813," Well above it said every 8 or 10 have breast cancer out of the 1,000.10*10=100 10*8=80."
+hrwvz41o,text_probe,0,5,800,200,4,3,47,male,college,no,no,11311,139781,128608, From the above information it is clearly mentioned that 80% of the women have breast cancer
+hrvj7cs4,text_diseaseX,0,2,95,990,5,1,26,male,graduate school,yes,yes,14795,74145,37829,-
+hrwop85e,text_diseaseX,0,1,800,200,4.25,4,20,male,college,no,no,431183,181139,176616,"I saw that 8 out of ten people had the disease. Ten goes into 1,000 one hundred times. So one hundred times 8 is 800. Then I did the same thing but with two."
+hrwvauiq,text_diseaseX,2,5,103,8,14.25,4,23,female,professional school,no,no,32840,180990,137901," 10 people who are actually affected, only 8 will have positive results and out of 990 unaffected people, 95 will have positive results, thus 8+95=103."
+hrww14kg,text_diseaseX,0,1,32,43,2.5,1,26,male,graduate school,yes,no,44199,105949,115075, NICE
+hrwu93mk,text_diseaseX,0,5,8,10,9.25,4,32,female,college,no,yes,160683,182620,109542, from the reading
+hrwv6283,text_diseaseX,0,5,96,77,10,3,24,male,professional school,no,no,564396,181095,161419,Out of 990 people 95 will get positive result. Then in case of 1000 peoples we will get 96 of them positive. Out of 10 have disease we will get 8 of them has positive. Then in case of 96 we will get 77 as positive.
+hrwoo27r,text_diseaseX,2,5,103,8,15.5,3,35,male,graduate school,no,no,85625,181125,181161, 95 out of 990 have positive test. And 10 out of 1000 have detected disease having only 8 positive. 95+8=103
+hrwq1aze,text_diseaseX,2,5,103,8,13.75,4,30,female,college,no,no,80126,181001,181001,"I added the 8 positive test results of individuals who actually had the disease and the 95 positive results for individuals who, in fact, did not have the disease."
+hrwstjw0,text_diseaseX,0,4,100,800,-1,3,33,female,college,yes,yes,178906,152973,138407,1000*.10=100 and 1000*.8=800
+hrwoe5s0,text_diseaseX,2,5,103,8,8.5,5,52,male,college,no,yes,42656,163385,143319,"Among the 10 who have the disease, 8 will test positive. Of the 990 who don't, 95 will test positive; total 103 positive tests. (Yeeow, 95 false positives.)"
+hrwt0pfv,text_diseaseX,1,4,103,95,-1.25,1,65,female,high school,no,no,100405,127007,95529, I read the paragraph
+hrwuazyi,text_diseaseX,2,5,103,8,4.25,3,46,male,graduate school,no,no,55455,181001,125757," As per statement 10 are having disease and out of 10, 8 will receive positive result and so naturally 8 are affected by disease.  As per statement out of 990 people 95 will receive a positive result so 95+8 are found positive."
+hrwwnylr,text_diseaseX,1,1,103,103,9,6,33,male,college,no,no,339551,181015,148287,"(A)If out of the 10, 8 test positive and out of the 990 95 test positive, I added 8+95 = 103 (that will test positive).
+(B) If you test positive then you have the disease. That's how I understood the question."
+hrwvd7ep,text_diseaseX,0,2,95,990,0,1,32,female,graduate school,yes,yes,9226,33313,21581,-
+hrwyacir,text_diseaseX,1,5,95,8,8.75,5,32,male,college,no,no,22874,108327,134342, its right from the scenario text
+hrwwl515,text_diseaseX,0,4,800,200,7.5,3,65,male,high school,no,no,16336,153581,152329," 1000 people actually have the disease , out these 10 people , 8 receive the positive result. so that i derived the answer"
+hrwnegbm,text_diseaseX,2,5,103,8,10.25,4,29,male,college,no,no,26224,181017,181020, i searched for when it said positive test result and added them together.  For the second one i just read the first sentence and ignored theother one.
+hrwvxx98,text_diseaseX,1,4,103,103,12.5,4,32,female,graduate school,no,no,101256,180991,148325,"Out of 1000, 10 had the disease, and out of these 10, only 8 has positive results. From the remaining 990, only 95 received positive results. So combining both the answers, it is 103."
+hrwum8mr,text_diseaseX,2,5,103,8,3.75,2,49,male,high school,no,no,61949,181005,181006," there are 95 who will receive a positive test result but do not have the disease.  8 of the 10 who have the disease will test positive.  this equals 103.  
+there are 10 who have the disease.  8 of them will test positive.  this equals 8"
+hrwx981m,text_diseaseX,0,1,96,77,13.75,4,35,male,college,no,no,148620,173777,136050,"To get the number of people testing positive, I divided 95/990, then multiplied it to 1000 people.
+
+To get the answer for B, I multiplied the answer in a by 80% (8/10)"
+hrwxwuwp,text_diseaseX,2,4,103,8,11.25,3,28,male,college,no,no,51645,164246,159061," The number of people who tested positive can be found by adding the 8 actual positives with the 95 false positives, giving you 103. You already told me out of the 10 people who had it only 8 tested positive."
+hrwp7k0q,text_diseaseX,1,5,8,8,9,4,23,female,college,no,no,59669,181061,181090,"The scenario clearly states that out of 1000 people, 10 will actually have the disease, but only 8 will test positive for it. Which means that all 8 people that test positive for the disease will have the disease."
+hrwtuk61,text_diseaseX,1,3,103,23,6.75,1,29,male,graduate school,no,no,790108,181062,181063," Its given, out of 10 people 2 will receive negative result."
+hrwuuycc,text_diseaseX,2,4,103,8,6.25,4,54,female,professional school,yes,yes,55671,180994,180994," Those who test positive will be the 8 of the 10 who have the disease, plus the 95 who don't have it, but test positive anyway."
+hrwxj5t5,text_diseaseX,2,5,103,8,5.25,3,29,male,professional school,yes,no,51887,181023,84726,"Test Positive - 8 + 95 = 103
+Actually have the disease of who test positive - 8 out of  10 "
+hrwt95ie,text_diseaseX,1,3,103,10,11.25,4,22,male,college,no,no,569991,159155,116014,Mind calculation
+hrwtbr3a,text_diseaseX,2,5,103,8,1.25,4,28,male,professional school,no,no,116197,182361,123445, it was clearly mentioned there in the data provided
+hrwwqajp,text_diseaseX,1,4,103,10,7.5,3,23,female,college,no,no,73264,139393,146750," Out of 10 people who have the disease, 8 will receive plus the 95 people from the 990 healthy people.
+
+ "
+hrwvxs6q,text_diseaseX,2,5,103,8,17.5,5,26,male,graduate school,no,no,53004,163226,113565, I looked at the statistics and added the numbers together.
+hrww6m97,text_diseaseX,0,4,8,95,-1,1,28,female,high school,no,no,47779,85493,126649, I just read the Article again and just pray my answers are right.
+hrwkxqvb,text_diseaseX,0,1,20,0,0.25,0,23,male,high school,yes,no,7154,37701,19837,I just think in my head
+hrwu0drt,text_diseaseX,2,5,103,8,7,5,35,male,college,yes,no,38321,181255,181262," added 8 positive tests of the 10 who have it and the 95 out of the remainder who will test positive.
+
+b) simply got 8 from the statement ""out of these 10 people, 8 will receive a positive test result""."
+hrwl4qae,text_diseaseX,2,4,103,8,10.75,5,51,female,college,no,no,79545,181140,183615, 8 OF 10 PEOPLE WHO TESTED POSITIVE HAVE THE DISEASE. 95 PEOPLE WHO DO NOT HAVE THE DISEASE STILL TESTED POSITIVE
