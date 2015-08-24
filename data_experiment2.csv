@@ -1,0 +1,454 @@
+participant_ID,condition,task_numCorrect,taskInput_confidence,taskInput_a,taskInput_b,spatialAbility_score,numeracy_score,age,gender,education,familiar,trained,time_diff_task_solution,time_diff_spatial-part1,time_diff_spatial-part2,taskInput_explanation
+hqzj2mvi,control,2,4,20,4,8.75,5,57,male,college,no,no,42065,181000,181001," 4 of 6 who have disease test +
+16 of 94 who do not have disease test +
+16+4= 20
+"
+hqzj8z3z,control,1,5,20,6,10.5,3,35,male,professional school,no,no,57545,181812,132575, Since there is only 6 people who are actually have the disease. however the test result shows 4+16=20 persons tested positive. 
+hqzq0ixi,control,2,5,20,4,20,5,20,male,college,yes,yes,52964,143298,162779," I added the numbers of those that tested positive to obtain 20, and then I recalled that of the 6 people that have the disease, 4 tested positive (4 have the disease of those that tested positive)."
+hqztaa2j,control,1,4,20,6,11.75,3,29,male,professional school,no,no,118047,181094,181045," Well it's written in the text:
+(a)Out of 100 people 4 are positive, plus 2 negative, and out of 94 are 16 positive so 16+4=20
+(b)""Out of the 100 people in the population, 6 people actually have the disease."""
+hqzz37aw,control,2,5,20,4,6.25,5,38,male,high school,no,no,33290,165948,142310,The question is how many people tested positive not have the disease.
+hqzwgq4r,control,1,5,20,6,4,3,53,female,graduate school,no,no,98654,181045,181009,"Based on the population of 100, 6 people had the disease.  Of those 6, 4 tested positive.  Out of the other 94 in the original 100, 16 tested positive.  That means that out of 100 people, 20 will test positive but only 6 will have the disease."
+hqzih63c,control,0,5,16,6,2.75,5,50,male,high school,no,no,423089,171418,163059, I used a bar graph to help visualize. Could really do it no other way.
+hqzkvaxa,control,1,5,20,6,10.25,3,35,female,college,no,no,50000,77265,57231, Added the actual positive people to false positive  people
+hqzwz8gn,control,1,5,4,4,6.75,5,45,female,college,no,no,89956,145713,82143,-
+hqzz2ybj,control,2,5,20,4,8.75,5,54,male,college,yes,no,47768,181002,181006," I just added up the numbers. 16+4=20, and only 4 have it. The other 2 that have it tested negative."
+hqzgz923,control,2,5,20,4,8.75,4,43,female,college,no,no,33432,117837,98735, total 20 will have the positive testing. 4 are actually deseased
+hqzyqbvh,control,1,5,16,4,12.5,3,29,female,professional school,yes,no,61282,181113,163665," As said above their are 6 people actually have the disease & out of this only 4 get the positive test result. From the total of 100 their are 94 nos people who didn't have the disease but among them 16 nos people will receive the positive test result. So people who will test positive = 16+4 = 20, people who will actually have the disease & have a test positive result = 6 - 2 = 4"
+hqztovph,control,1,5,22,4,3.75,3,32,female,PhD,no,no,10136,181084,30737,Added the 2 positive results together. 
+hqzjbg8i,control,2,5,20,4,11.25,5,32,male,college,no,yes,68236,180986,180988," 16 receive a false positive and 4 receive a real positive, giving a total of 20 positive results, with 4 results being accurate"
+hqzi5xjk,control,1,5,20,6,15.25,5,36,female,graduate school,no,no,74536,181022,138082,-
+hqzhxn9p,control,2,5,20,4,1.5,3,26,female,college,yes,no,14622,104922,73366, Using the numbers given. 
+hqzywqxk,control,1,3,20,16,4,3,32,female,graduate school,no,no,122136,58203,70794, Reading the above paragraphs I reached the conclution
+hrfhpwur,control,1,3,20,6,6.5,3,42,female,high school,no,no,71320,113085,80175,looked at the numbers.
+hrfit0vt,control,1,4,22,4,8.25,3,27,male,college,no,no,120172,181028,181036, I understood that 22 people were tested positive but 4 actually have the disease.
+hrfgwj42,control,2,5,20,4,20,5,22,male,high school,no,no,12778,151018,160501, Just used the numbers given above :)
+hrfgy6es,control,1,5,20,5,12.75,5,22,male,college,no,no,42472,169963,151345," Using the numbers that you provided, you said that 6 actually has the disease, but only 4 will test positive. And in the no-disease portion, you stated that out of 94 people, 16 will test positive. So in (a) 16+4 = 20. In my first statement, that'll answer (b). "
+hrfhgbot,control,2,5,20,4,12.5,5,22,female,college,yes,no,29987,150620,141785,"4+16=20
+4 actually have the disease AND tested positive "
+hrfct1pp,control,1,4,20,5,15,5,27,male,graduate school,yes,yes,109922,171889,109779,"I applied bayes theorem.
+
+(.06 * 2 / 3) / ((.06 * 2 / 3) + (.94 * .78)) = .05 * 100 = 5"
+hrfhmpsl,control,2,5,20,4,15.5,5,27,female,professional school,no,no,52819,181005,129169," It says the population is 100 people. 
+4 people that have the disease will test positive for it
+16  people that DO not have the disease will test positive for it
+16 + 4 = 20 "
+hrfiivom,control,1,4,20,6,12.5,6,21,male,college,no,no,151760,179039,148542,It says that out of 100 people in the population 6 people actually have the disease.
+hrffr64j,control,2,5,20,4,8.75,5,65,male,graduate school,no,no,65703,181047,181139,"  4 of the actual sick will get positive
+  16 of the well will get positive
+______ 
+  20    positive total"
+hrfiymbg,control,0,2,67,23,1.25,5,20,male,college,no,no,135419,181081,172145," I used fractions, I multiplied 4 by 100 because it was asking for how many tested positive and out of 6 only 4 people tested positive. Then I divided 400 by 6 because 6 was the total of people checked or that had the illness, whether receiving a positive or negative result. So basically, 4/6 times X/100 and cross multiplying got me around 67 people and for saying who actually had the disease I mainly guessed."
+hrfimgrm,control,2,2,20,4,11.75,4,21,-,college,no,no,46152,181217,181218, I added the number of people who had the disease and tested positive (4) and the number of healthy people but received a positive test result (16).
+hrfgcgie,control,1,3,20,20,13.25,5,27,male,college,no,no,74043,181003,180993,"On questions a, It says that 4 people will test positive and 16 people would test positive so thats 20. 
+
+I assume that its the same answer for part b. "
+hrffcvnw,control,1,1,20,3,1.25,5,24,female,college,no,no,398307,130730,108410,"I thought about it too much I don't know.
+
+Out of 94, 16 test positive (17%) but out of 6 people who have the disease 4 test positive. It doesn't make sense. Does it?"
+hrfgfm6w,control,2,5,20,4,9.75,5,44,female,graduate school,no,no,59496,180995,181003, 4 test posit that have it  16 test positive that don't that equals 20 positives with only 4 being true
+hrff6ox4,control,2,5,20,4,5.5,5,30,male,college,no,no,100583,113518,93333,"A. It said 4 people with the disease will test positive, and 16 people without it will test positive.
+B. It said 4 people with the disease will test positive.
+"
+hrfihqol,control,2,5,20,4,6.75,5,23,male,college,yes,no,32784,132506,163863," 4 plus 16 will test positive, 4 of those who actually have the disease."
+hrfhm6lg,control,2,4,20,4,6.75,4,29,female,high school,no,no,46800,181099,93524, Because 16 perfectly healthy people will test positive and be wrong. Only 4 of the positive will test positive.
+hrfg4kt7,control,2,4,20,4,12.5,5,24,female,graduate school,no,no,30310,170620,161207, I counted how many are said to receive positive results and then looked at how many of the ones who actually have the disease test positive.
+hrfg7p2y,control,1,4,4,4,4.25,5,30,male,college,no,no,123862,181142,137989," You asked me how many will test positive, from the reading, it states 4 will test positive.  Then you asked me of the 4 who will actually have the disease, from the reading, it says 6 people have the disease.  My 4 is included in that 6 so all 4 will actually have the disease."
+hrfczz4r,control,2,5,20,4,8.25,4,25,male,graduate school,no,no,48512,167530,181018,"There is probability of 4 out of 6 peoples who actually have disease will test .positively And 16 out of 94 of those who don't have disease will test positively. So, 16+4=20 will test positive. But 4 of them will only have the disease."
+hrfg6sa9,control,2,5,20,4,14.75,5,24,male,college,yes,no,21073,197274,158904, 4/6 people with the disease will test positive. 16/94 people without the disease will have a false positive result. 4+16=20 total positive tests. Only 4/20 actually have the disease. 
+hrfgpzby,control,2,5,20,4,10.75,5,26,male,high school,no,no,111825,181016,181017," 16 + 4 = 20 = Positive Tests
+
+4 = Positive Tests that have it
+
+"
+hsm2p3dh,control,2,4,20,4,1.25,4,26,female,college,no,no,17961,66459,45680,-
+hsm6y4vo,control,1,5,20,6,11.75,5,27,male,graduate school,no,no,19908,155479,175689, well the paragraph states that 4 people then 16 people in different group will test positive so the sensitivity of the test is not very good.
+hsm65gyb,control,1,5,20,6,9.25,5,31,male,college,no,no,55064,181591,152863," You asked how many will test positive - out of 6 people who have the disease 4 will test positive. The rest of the 94 people who don't have the disease 16 of them will test positive anyway. So 20 people will, no matter what, test positive. 
+
+How many actually have the disease is stated right at the beginning. 6 people out of 100."
+hsm5ww83,control,2,5,20,4,16.5,5,25,male,college,no,no,19099,180814,167129, Added the positive test results to get 20 and then only 4 were said to actually have the disease.
+hsm6vipl,control,0,4,4,6,10.25,2,39,female,college,yes,no,45822,181019,166764, by looking back at the article and re-reading it.
+hsm21d38,control,0,4,78,6,-1.25,3,23,male,college,no,no,38486,84424,39029, 
+hsm2qi39,control,2,5,20,4,16.25,5,30,male,graduate school,no,no,17722,144816,94631," Out of 100 people, 4 people with the disease will test positive, while 16 without will test positive, bringing the total out of 100 to 20 that will test positive."
+hsm2wo3o,control,2,5,20,4,9,4,49,female,college,yes,yes,111832,181000,148409,"a.) 4 positive + 16 positive = 20 Positive
+
+B.) Out of the 20 that will test positive, it explicitly states 4 people will have the disease."
+hsm5082l,control,1,4,620,4,8.75,5,29,male,-,no,no,40267,71765,53510, It is clearly stated how many people test positive and how many actually have the disease.
+hsm79mms,control,2,5,20,4,9.5,4,34,male,high school,no,no,49618,181007,181010,"I added the number of positive test results and figured the actual positive number from the information given.
+ "
+hsm5u37j,control,1,3,20,6,-0.75,5,26,male,college,no,no,78958,60087,20394,"I think this is the overall answer. 20 people test positive but out of those 20, 16 of them will not have it. But there are two people who test negative that do have it. "
+hsm2qm9z,control,2,5,20,4,11,5,28,male,high school,no,no,23517,117535,64439,4 people who have the disease will test positive and 16 who don't have it will test positive.
+hsm2qlni,control,2,4,20,4,12.75,5,30,female,college,yes,no,92245,181007,181001," Out of the 6 sick individuals, 4 will test positive. Out of the 94 healthy people, 16 will test positive. 4+16=20
+
+The 16 healthy people don't have the disease. The other 4 do."
+hsm2n2qg,control,2,5,20,4,2.75,5,24,male,college,yes,yes,54796,181710,181089,By reading the text.
+hsm78nse,control,2,5,20,4,13.75,5,45,male,college,no,no,58199,179988,146529," i added the folks with the disease who tested positive, and those without the disease who tested positive."
+hsm6mh4x,control,2,5,20,4,1.25,5,28,male,high school,yes,no,66551,104455,81206,I believe based on the scenario given that this could be the only right answer.
+hsm2lzo4,control,0,1,15,12,9,5,23,female,college,yes,no,144747,110172,100779,I really just tried to give a rough guess based on what was given to me.
+hsm2orv3,control,0,5,4,6,-1.25,3,22,male,high school,no,no,24936,181009,146481, By reading the passage/ pretty easy to figure out
+hsm2abhb,control,0,5,15,3,1.75,0,29,female,PhD,no,no,38968,86381,77715,-
+hsm5waoc,control,2,5,20,4,12.25,5,24,male,college,no,no,83213,169444,162860,"To find the number of people who will test positive, add the people who will test positive and who don't have the disease to the people will test positive and do have it.
+
+To find the number of people who will test positive and who have the disease, enter how many people tested positive among those who had the disease."
+hsm7eb5r,control,1,5,20,6,15.5,5,27,male,college,no,no,23379,181024,82328,The questions states that 6 people have the disease and 4 will test positive and then 16 more will also test positive.
+hsm2py02,control,2,4,20,4,16.25,5,30,female,college,no,no,62215,100478,86160, used the info above to determine them
+hsm2o193,control,2,5,20,4,10,5,21,male,high school,no,no,30332,122196,110616," For question a, I simply added the number of people who tested positive 16 and 4.
+For question B, I chose the number the paragraph said tested positive that had the disease."
+hsm36z22,control,1,5,20,6,5.25,5,25,male,high school,no,no,28137,183128,61172,it is clearly stated that 6 people have the disease.
+hsm738nb,control,2,5,20,4,12.75,5,23,male,college,yes,no,73683,181009,171275,I used the provided data and derived my answers from the wording of the question.
+hqzh23n1,storyboarding,0,5,6,100,1.25,2,26,female,high school,no,no,53125,132792,98479, i am sure my answer
+hqzvos3a,storyboarding,2,5,20,4,18.75,4,56,male,college,no,no,44265,172219,179250, I based my answer on the explanation before.
+hqzt4c03,storyboarding,1,4,1620,4,2.5,4,32,female,college,no,no,174805,159850,117523, I looked at both calculations given in the visualization and added them together.
+hqzpezt6,storyboarding,1,2,20,6,3.5,5,28,male,college,no,no,309233,181018,181015,"First, an assumption: that it should be possible to derive the answer solely from looking at the visualizations, rather than solving a statistics problem by hand.
+
+The visualizations seem to show that six people are infected out of the total population, which answers b. 
+
+Out of the healthy population (94), 16 will show false positives. Out of the infected population (6), 4 will show accurate positives. 16 + 4 = 20."
+hqzj4n2s,storyboarding,1,5,16,4,0.25,0,25,male,graduate school,yes,no,6285,17181,17387, 
+hqzj9d95,storyboarding,2,5,20,4,12.75,4,24,female,graduate school,no,no,30521,181047,170924," Well, out of 100, only 6 are suffered from disease, which includes 2 negatively tested; so that left with only 4 people who are tested positive and are suffering from diseases too. Than among the people, who do not have disease, 16 are tested positive. So, the total number of people tested positive is 16 + 4 = 20."
+hqzuzgnx,storyboarding,0,5,80,20,5,5,24,male,high school,yes,no,81903,181011,12718, Math
+hqzpf8vy,storyboarding,0,4,23,6,5.25,4,22,female,college,no,no,254188,145854,112085," I looked at the top. and 6 people already have it. I divided 16 by 94 to get the percentage, and then added 6 to that."
+hqzhmrf1,storyboarding,2,5,20,4,11.25,4,39,male,graduate school,no,no,31232,156737,119053, The question was very straight forward. 16+4 people will test positive and 4 will actually have the disease.
+hqziiorm,storyboarding,1,5,16,4,-1,0,25,male,graduate school,no,no,10615,16113,19666, 
+hqzq5chp,storyboarding,2,5,20,4,9,4,27,female,college,no,no,32298,137656,113224, Total - 16 not infected and 4 infected people will test positive. Out of the positive tested people 4 will carry the disease.
+hqzzzssj,storyboarding,1,1,20,6,5.5,3,52,female,high school,no,no,153973,181003,159163, I guessed
+hqzjjprn,storyboarding,2,5,20,4,10.25,4,33,male,graduate school,no,no,53940,181001,84183," The total test positive is 20. out of 6 who are test positive, only 4 are actually have the disease."
+hqztzf21,storyboarding,1,4,20,6,15.25,5,25,female,college,no,no,100106,181314,170635," out of the 6, 4 are tested positive. Then it says of the 94, 16 people test positive. 4+16= 20"
+hqzzobhe,storyboarding,2,4,20,4,7,4,25,female,college,no,no,58349,180987,180986," So out of the original 6 that do have the disease, 4 tested positive. 16 out of the 94 healthy people tested positive. So 16+4=20. The amount of people who tested positive AND had the disease was 4, according to the charts."
+hqzwkp5q,storyboarding,2,5,20,4,11,5,33,male,high school,no,no,29848,180997,180983, I did the math based on what I read
+hqzhtp7i,storyboarding,1,5,16,4,7.75,5,27,female,college,no,no,47466,181026,127259," The statement where it says out of 94, 16 will receive positive result it already counts the 4 positives out of the 6 too so 16 is the answer. For the second question out of the 16 , 6 actually have the disease."
+hqzxlvyf,storyboarding,1,3,4,4,-1,4,37,male,graduate school,no,no,59776,56594,75817," In the above explanation, it stated that out of 100 people, 6 people have the disease and of those 6, 4 are positive. All 4 people who test positive must carry the disease."
+hqzw8n5j,storyboarding,1,5,620,4,14.5,4,21,male,college,no,no,44366,181058,167224," from the diagram I have derived the answer It has 100 people 
+where 20 tests positive  from that only four have disease"
+hqzidmak,storyboarding,1,5,16,4,-1.5,0,27,male,graduate school,no,no,38175,7329,12233, 
+hqzsatf7,storyboarding,1,5,16,4,17.5,3,29,male,high school,no,no,17332,138840,103930, I used the information and looked for the answer in the information porvided.  All the answers were provided if you have a basic command and comprehension of the english language.
+hqzzrbyl,storyboarding,1,5,16,4,4.75,6,29,female,college,no,no,37867,146953,64714, the information was provided in the above data.
+hr0051vx,storyboarding,2,5,20,4,17.5,5,53,male,high school,no,no,57722,170656,199891, From the diagrams supplied.
+hqzj1jwh,storyboarding,1,5,16,4,-2.5,1,26,male,professional school,yes,no,3715,22282,14985, 
+hrfhs4ts,storyboarding,1,5,20,6,10,5,37,male,professional school,no,no,41553,158091,75668,"By adding up the total number of false positives and actual positives, and taking the actual number of infected from the first statement."
+hrfgi4wk,storyboarding,2,4,20,4,14.5,5,27,male,college,no,no,36982,181437,181069,"The information stated that 6 out of 100 will have the disease but only 4 will test positive, and out of the 94 who do not have the disease there will be 16 false positives."
+hrfhxd6z,storyboarding,2,5,20,4,15.25,5,27,male,college,no,no,18385,130931,113666,"If 16 out of 78 who do not have the disease would test positive, and four out of six who do have the disease test positive, that's 20 total positive results. "
+hrff6w1g,storyboarding,2,5,20,4,5.25,5,26,male,college,no,no,150792,181035,181078,In the example above 100 people were tested for the disease. In the diagram above if you count the people that test positive there are 20. 4 of those who tested positive have the disease as is also shown the diagram. 
+hrffswgb,storyboarding,2,5,20,4,17,5,25,male,college,no,no,55241,181028,181079,"For (a), I added the 4 people who have the disease and test positive to the 16 people who do not have the disease and test positive. Then for (b), those that have the disease and test positive are a subset of all those who test positive. Therefore, the data presented saying ""4 people out of 6 who have the disease will test positive"" explicitly answers (b)."
+hrfgju4g,storyboarding,2,4,20,4,16.5,5,34,male,college,no,no,23620,181042,181029, I counted the number of people in each of the graphic groups to get my answers.
+hrffkdw7,storyboarding,1,5,16,4,15,5,36,male,high school,no,no,15364,177187,176356,"The information was presented to me directly, so I used that information as my answers."
+hrffmumn,storyboarding,2,4,20,4,11.5,5,22,male,college,no,no,47119,181067,136924, I just counted up the numbers based on the information provided above.
+hrfhvggk,storyboarding,1,4,20,6,3,3,31,female,high school,yes,no,88904,181013,181010,I used the information provided to the best of my ability 
+hrfgojzt,storyboarding,1,5,16,4,11.5,4,34,female,college,no,no,16580,181259,109275, I looked at the diagram and description and retrieved my answers from the information given.
+hrff7c8z,storyboarding,1,4,16,4,5.25,5,27,female,college,no,no,13528,100667,45476,"Four people have the disease and the last chart said that out of 94 people, 16 will have a positive test result. I just read the chart and the information."
+hrfhzxyg,storyboarding,0,4,16,6,1.25,4,23,male,college,yes,no,51213,139788,73545, I did based the number of people that have it or tested positive
+hrfhgxe2,storyboarding,0,5,16,6,10,3,25,female,high school,no,no,15577,123603,129892, I just read the information above it is stated clearly.
+hrfg2zuj,storyboarding,2,2,20,4,13,5,36,male,college,no,no,45110,181098,144551, i used the graphs to determine the answers
+hrfg68q1,storyboarding,2,4,20,4,5.5,5,25,male,college,no,no,101504,181111,181071," a) 4 of 6 who have disease test positive and 16 of 94 are positive so 4+16=20
+ b) It was stated that 4 out of the 6 people who had the disease were positive.
+"
+hrffqx2v,storyboarding,2,5,20,4,18,5,21,male,college,no,no,35223,181110,181109,from the explanation and diagram. it showed 20 people being tested positively and 4 of those being correctly diagnosed.
+hrfilk1s,storyboarding,1,5,20,6,8.75,5,28,female,high school,no,no,37950,132021,78410, I added the 16 of the undiseased people to the 4 of the diseased people who test positive on the test.
+hrfhj6w4,storyboarding,2,4,20,4,11.25,5,22,male,college,no,no,51399,125734,67059, 4 Have the disease that will test positive and 16 that dont have the disease will test positive.. 4+16
+hrfi12i1,storyboarding,1,3,16,4,10,5,27,male,graduate school,no,no,30687,181132,181114, I used the information from above to get the false positive/negative result rate
+hrfgic4m,storyboarding,2,5,20,4,6.5,4,35,female,college,yes,no,127936,180998,180997,"For question (a), I added the number of positive tests from the group of people who actually have the disease to the number of false positives from the people who do not have the disease (based on the charts above). For question (b), I just gave the number of people who tested positive while actually having the disease."
+hrffxhb5,storyboarding,2,5,20,4,9.5,5,40,male,graduate school,no,no,26560,181438,181188, 16 of 94 plus 4 of 6; alternately the block of 20 people which is clearly shown to be in box and with a label marked
+hrfht2br,storyboarding,2,5,20,4,20,4,38,male,college,yes,no,27446,172388,161745, I looked at the last picture showing the total positive tests.
+hrff60zk,storyboarding,2,5,20,4,10,5,37,male,high school,no,no,106084,181008,181024, did the math and looked at the chart to check my answer
+hrfg5vlh,storyboarding,2,5,20,4,15,4,24,female,graduate school,no,no,34278,175512,168538," Of 94 people tested that do not have the disease, 16 test positive and of the 6 that have the disease 4 tested positive so that is 20 total that tested positive. Looking at the diagram where the two boxes overlap, 4 people that test positive will have the disease. "
+hsm2rehi,storyboarding,2,5,20,4,3.75,5,30,male,college,no,no,80339,194669,123980, I used the visual data. 
+hsm7vshc,storyboarding,1,4,20,20,8.75,5,50,male,college,no,no,280082,166847,119050," 20 test positive, including 4 that have the disease. All who were tested have the disease.  There were no false positives. "
+hsmampu9,storyboarding,1,4,16,4,10,5,20,male,college,no,no,44576,161234,179731,I used the final visual that shows that out of the 100 people 16 of the people test positive
+hsm22lpl,storyboarding,0,4,100,0,0,1,31,male,graduate school,no,no,36777,84605,84977,-
+hsm2gow3,storyboarding,1,5,16,4,3.75,3,21,female,graduate school,no,no,69000,119026,85974, 
+hsm2q0b7,storyboarding,1,5,16,4,13.25,5,27,male,high school,no,no,114252,181031,181020, I red the chart and followed the description.
+hsm6vnsk,storyboarding,2,5,20,4,15,5,31,male,graduate school,no,no,17215,173496,159610,"The diagram shows 10 people circled as tested positive and of those 20, 4 are shaded as actually having the disease."
+hsm5l3uw,storyboarding,2,5,20,4,17.75,5,29,male,college,yes,yes,19206,181025,166365," The test positive section is highlighted and contains 20 people (or 16 positive who don't have plus 4 positive who do have, which this last bit is the answer to the second question)"
+hsmaaen2,storyboarding,2,5,20,4,9.5,5,29,female,high school,no,no,37233,181009,148401," On the chart of 100 people, the figures who test positive are circled. I simply counted the people in the circle which is 20 people who will test positive even though only 4 are darkened on the chart as actually having the disease."
+hsm9znq5,storyboarding,2,5,20,4,13.25,5,25,male,high school,no,no,98452,181032,166215,"I looked at the circled people who ""test positive"" and counted them. I initially typed ""16"" because of what the text said but then I realized the text said ""Out of these 94"" which wasn't the total sample base. For those who actually have the disease, it was easy to just look and see that it was 4."
+hsm2w2gg,storyboarding,0,4,19,6,10,2,23,male,college,no,no,15817,64213,43657,I used the pictures to help me visualize numbers.
+hsma9qez,storyboarding,2,5,20,4,11.75,5,29,male,college,no,no,36804,180798,180777, I simply counted the number of people in the test positive box.
+hsm6l7rb,storyboarding,2,1,20,4,-3.75,4,26,male,graduate school,no,no,28874,30719,36010, I just looked at the diagram and made a guess
+hsm80qnn,storyboarding,1,5,16,4,12.5,5,29,male,college,no,no,26331,171299,118472," as stated above, 16 test positive but only 4 also have it.  2 test negative but have it.  "
+hsm5z88b,storyboarding,2,4,20,4,3.75,4,26,female,graduate school,no,no,23665,81093,46104," From the data you first gave me, and the charts. I guess it woudlnt' always be these exact numbers."
+hsmacdyd,storyboarding,2,5,20,4,5.25,2,29,female,college,no,no,54622,181087,181090,"(a) Of the 100 people tested, 4 people who actually have the disease will test positive. Another 16 people who don't have the disease will test positive because the test is not perfect. (20)
+(b) There will be 4 people that test positive and have the disease, while 2 people will test negative but have the disease. (4)"
+hqzxtv5r,structured,0,5,4,6,-1,0,22,male,graduate school,no,no,27217,73850,19750, my answers are true
+hqzwn8b8,structured,1,3,20,6,0.25,4,21,female,high school,no,no,59694,71998,38350, I derived my answers based on the data.
+hr0e2nom,structured,0,3,15,2,3.75,3,29,female,college,no,no,35697,96500,101622, just a probability calculation
+hqzk2rk3,structured,2,5,20,4,-3.5,3,24,female,college,no,yes,60346,112812,118120,"Whatever I answered , it was exactly right."
+hqzr253p,structured,2,5,20,4,8.5,3,35,male,college,no,no,63267,181022,136669, I just followed the 2nd breakdown.
+hqzgx0tc,structured,2,5,20,4,3.25,3,40,female,college,no,no,27682,180992,181009, the answer is given in the example itself.
+hqztbiol,structured,0,-,10,7,1.75,2,34,female,graduate school,no,no,66460,85503,61197, I averaged it on a 10 percent bases of 100 people
+hqzk32rb,structured,2,5,20,4,2.5,1,30,male,graduate school,yes,no,184971,29067,55631, My answer is 100% right. 
+hqzsc4fb,structured,2,5,20,4,15,5,29,female,postdoctoral,yes,no,59415,134456,116561,"I counted; out of 100, 
+6 having the disease:  4 positives
+94 not having it:  16 positives 
+16+4=20
+...and out of those 20 that tested positive, 4 of them had the disease to begin with."
+hqzwe431,structured,2,5,20,4,11.5,5,57,female,college,no,no,330373,181234,181222,"If I'm understanding the question correctly, the answers are shown above in the scenario description."
+hqzy3ool,structured,2,5,20,4,1.25,4,33,male,college,no,no,34457,181002,125426,"I got my answer from carefully reading the information given in the problem which states that a total of 20 people will test positive, and out of those 20 a total of 4 people will actually have the disease."
+hqzy6b2x,structured,2,4,20,4,7.5,3,29,male,graduate school,yes,no,118076,86821,124092, Followed the info through the problems
+hqzvz4lt,structured,0,5,6,94,9,2,21,female,graduate school,yes,yes,104554,129189,136301, very nice
+hr000j9v,structured,0,4,4,6,-3.75,4,48,female,graduate school,no,no,280913,162972,154216, I derived the answer as per the above problem
+hqzt77zh,structured,2,5,20,4,11.75,3,51,male,college,no,no,34093,181002,118551, It was explained in the scenario.
+hqzig22g,structured,2,5,20,4,8,5,56,male,high school,no,no,30001,181016,181028," It was clearly explained above under ""Another way to think about this is..."""
+hqzijxiw,structured,2,4,20,4,1.25,3,26,female,graduate school,no,no,56400,199862,207117, 
+hqzhlqfj,structured,2,4,20,4,1.25,4,29,female,graduate school,no,yes,48205,180484,176244, no this is correct answer
+hqzhxxdd,structured,0,4,4,6,-1.25,1,24,male,college,yes,yes,38609,98184,30780, i confident answer
+hqzznu1v,structured,2,5,20,4,9.75,5,42,female,college,no,no,28891,183542,182819,The scenario said that for 100 people in the population 20 will test positive and 4 will actually have the disease.
+hrfguu1o,structured,2,5,20,4,8.5,5,24,male,graduate school,no,no,28848,181040,181028, I just used the data given above and answered the question.
+hrffqepo,structured,2,5,20,4,13.25,4,23,male,graduate school,yes,yes,17168,181009,70829,its given in the scenario 
+hrffqn25,structured,2,5,20,4,14.75,5,27,male,college,no,no,11747,166170,123007, The answer is written obviously.
+hrfgrybb,structured,2,5,20,4,10,4,23,male,college,no,yes,22560,94542,81700, The answers are given in the second explanation
+hrfgczoe,structured,2,5,20,4,15,5,-,-,college,no,no,26739,180969,180999,"Just like is said above, ""20 poeple will test positive out of 100"".  So a) is pretty simple just by reading.  
+
+For b), I know that 20 people will test positive and 6 people actually have teh disease.   However, only 4 of the poeple with the disease will test positive.  So the answer is 4.  "
+hrfj112h,structured,0,1,12,8,6.25,2,22,male,college,no,no,18064,66977,38120, I'm not exactly sure how to explain what I did. I derived that the possible situation would have 12 people positive due to 16 having it and the other information telling me 4 have it. Then I used the same formula for how many people test negative to factor how many test positive. 
+hrfhccm2,structured,2,5,20,4,8.75,4,23,male,college,no,no,25338,170442,108891," According to the statistic given above, 100 people in population are tested and 20 people will be tested positive and 4 of those 20 will have the disease."
+hrfh8097,structured,2,4,20,4,17.75,5,20,male,college,yes,yes,47201,145831,181020,It is easy to read from the scenario that it clearly says out of 100 people tested 20 will test positive and of those 4 will actually have the disease.
+hrffjqrn,structured,2,3,20,4,9.75,5,50,female,PhD,no,no,199127,181153,174700,"I derived my answers from the results given above, summing the number of positive tests of people having the disease and the number of positive tests of healthy people. I'm not sure of my answers since this is not my field at all and it seemed to me too easy to solve."
+hrffu8eq,structured,2,5,20,4,6,5,24,male,high school,no,no,60894,194251,100629," I just used the information provided to make my decision, all of the information provided was enough to answer."
+hrfhng5t,structured,2,4,20,4,9,4,25,male,college,no,no,73565,177551,153775," Through the disease rates given in the article, the false positive rate for the test is likely universal. "
+hrfgzmwi,structured,2,5,20,4,13.25,5,19,male,college,no,no,20553,181000,181007," I looked back at the reading to verify my information, and it said that the test wasnt perfect, so some people who didnt have it would test positive, and the other way around."
+hrfia3re,structured,2,4,20,4,10,5,28,female,graduate school,no,yes,37859,186816,184802," Out of 94 people who do not have the disease, 16 test positive. 4 out of the 6 people who have the disease test positive. 16+4=20"
+hrfhaiz9,structured,0,4,24,10,0,1,26,male,college,no,no,39008,20382,14646, I just added up the for sure positives and the people that tested positive in the first group of info
+hrff6bbf,structured,2,5,20,4,15.25,5,21,female,high school,yes,no,40771,159949,113942, It says above
+hrfi54fp,structured,2,5,20,4,13,5,25,male,high school,no,no,69511,181000,181002,"I think the answer is very simple. It is plainly stated in the 'another way to think about this' section that 20 people out of 100 will test positive, and out of those 20 people 4 would have the disease."
+hrfi6z6y,structured,2,1,20,4,2.5,3,40,female,high school,no,no,25730,181001,180991, If the 100 people who are tested for the disease are the same as the 100 members of the population then the answer is right above this box.
+hrffnus0,structured,2,5,20,4,8.5,4,29,male,high school,no,no,61757,180989,180989," The above scenario states that ""out of the 100 people in the population, 20 will test positive and out of those 20 only 4 will have the disease. These statements are where I got my answers. "
+hrffq1rr,structured,2,5,20,4,7.5,5,24,male,college,no,no,19048,45818,36297,I followed the secondary explanation.
+hrfh851j,structured,2,5,20,4,11.5,5,26,male,college,no,no,21177,115988,123333,I just read the information. The second half tells you that 20/100 will test positive and 4 will have it.
+hrfiai7y,structured,2,4,20,4,15.5,5,32,male,college,no,no,24089,181109,115337,"a - it says 20 people will test positive
+b - only 4 people that have the disease will test positive"
+hrfhj2ns,structured,2,5,20,4,3.75,5,27,male,graduate school,no,no,54894,139969,60971," I just added together total number of people testing positive and it clearly states in the first part ""4 will receive a positive test result"" out of the 6 people who actually have it. "
+hrfiwavd,structured,2,5,20,4,20,5,20,male,college,yes,yes,20170,128376,136604," The answer was provided in the 2nd part of the material, but I double checked by adding up the numbers in the 1st part"
+hrfi63iu,structured,2,5,20,4,10.25,5,20,male,high school,no,no,15125,161428,181101,It says so directly above.
+hrfe37l9,structured,2,5,20,4,15.5,5,29,male,college,yes,no,22586,181177,181185, The example above told the answers.  Also the information says 16 will have false positives and 4 will have true postives.  16+ 4 = 20.
+hrfi3cax,structured,1,3,20,2,-2.5,4,24,female,graduate school,no,no,41485,66437,33930,I used the logic from the example above. 
+hsm5vnuj,structured,2,3,20,4,17.5,5,38,female,high school,yes,no,25730,176350,146679,I matched it to the info given above
+hsm8c66u,structured,2,4,20,4,14.75,4,49,male,college,yes,no,24984,181001,180997," One in five people tested positive in the example.  If it is the same population, the assumptions hold. 4 of the 6 who are infected test positive, and 16 of 94 healthy people test positive. 4 + 16 = 20"
+hsm7z5c9,structured,0,4,82,18,10.25,5,35,male,graduate school,no,yes,130338,181061,165258,i think to compare two options to maintain near reasons to solve this one. i solve this to provide solution.
+hsm64odg,structured,2,-,20,4,4,5,18,male,high school,yes,no,12851,181030,75972,"The premise directly tells you that out of 100 , 20 will test positive and 4 will have the disease."
+hsm3qqdk,structured,2,5,20,4,12.5,5,25,male,high school,no,no,28713,148081,60427,By adding who got a positive result. 
+hsm8ayn2,structured,2,5,20,4,13.75,5,25,male,high school,no,no,15251,181065,181061,"The end explanation does the math for me, so I used those numbers"
+hsm6ub4x,structured,2,5,20,4,8.75,5,28,male,college,no,no,23072,152741,104323, the answer is about I just had to read it.
+hsm2palk,structured,1,3,20,6,1.25,4,25,female,high school,no,no,1254042,14874,13980,I honestly can't explain in words.
+hsm390vt,structured,2,5,20,4,11,5,22,male,college,no,no,33212,181910,181122,"I used the info from the data. With a total of 100 people, it says 6 people actually have the disease and 4 will test positive. It also says that 20 total people will test positive"
+hsm1fsvl,structured,0,4,82,18,1.25,5,50,male,college,no,no,23425,106651,187131, its my belief
+hsm7uker,structured,2,5,20,4,15.75,5,27,male,college,no,no,39089,181018,181242, I used the information presented above to deduce the answers to the questions.  I simply read the statistics presented to find the solution.
+hsm7ywaw,structured,0,3,22,6,5,4,21,male,college,no,no,107656,157310,115992, 
+hsm2r8ca,structured,1,3,10,4,6.25,4,29,male,college,no,no,35387,100095,75787, i did my best to figure out the math. I hate numbers
+hsm7yq7i,structured,2,5,20,4,11.25,4,26,female,professional school,yes,no,13590,143314,138493,"I compared both scenarios in where 20 people will get a positive result, regardless of having the actual disease. From that 20 who tested positive, only 4 will actually have it."
+hsm84few,structured,2,5,20,4,11.25,5,24,male,college,no,no,9849,181029,181017," I gave my answers based solely on the numbers that were presented in the scenario. It clearly stated that out of 100 people tested, 20 would test positive, but only 4 of those 20 would actually have the disease, because the test isn't entirely accurate."
+hqzr6gnr,textvis,2,5,20,4,7.75,2,59,female,graduate school,yes,no,9432,126451,152703, Counting the number of people within the outline identified as Test Positive = 20. Of that number 4 have the disease.
+hqyktfnh,textvis,0,5,78,94,3,0,29,male,professional school,yes,yes,206947,44623,27444,yes
+hqzhj5wg,textvis,1,5,20,80,5,2,27,male,college,no,no,337197,140790,105445,-
+hqzycnf8,textvis,1,4,20,6,6.25,4,33,male,high school,yes,yes,225979,181011,181053,There are 20 people in the chart that test positive out of 100. There are 6 people who actually have the disease on the chart out of the 100.
+hqzk48k1,textvis,2,5,20,4,5,4,25,male,graduate school,no,no,62777,156841,113407, According to diagram it clearly shows out of 100 sample's there is 20 people get positive and out of these 20 there are 4 people's actually have disease.
+hqzgw7xz,textvis,2,3,20,4,5,4,34,unspecified,college,no,no,64384,131678,140243,"I took the 16 out of 94 people will get a positive. And then I added it to the 4 people who will receive a positive out of the six total who have the disease.
+There are 4 people out of those who test positive who actually have it."
+hqzw65bf,textvis,2,5,20,4,7,4,38,male,graduate school,yes,no,45571,181031,181022,4 positives and 16 negatives based on test results equals 20 positive results
+hqzvt86b,textvis,2,5,20,4,0.5,4,35,female,college,no,no,33097,128894,140064, noted from the diagram
+hqzwh2ap,textvis,2,5,20,4,10.75,4,49,female,college,no,no,65288,181104,181085," the circled area of 'tested positive' is 20. of those 20, four are shaded, who have the disease"
+hqzofxav,textvis,1,2,20,5,8.75,2,50,female,high school,no,no,62496,125544,85338,Just worked on numbers in my head to give my best educated guess.
+hqzhju1n,textvis,1,4,4,4,-1.25,4,26,male,college,no,no,94838,142544,118133, In the Scenario it is stated like that.so i concluded that answers.
+hqz8nemr,textvis,2,4,20,4,18.75,5,35,female,college,no,no,20286,152882,177348,"The circle ""test positive"" encompasses the answer to part a).
+The overlap between ""have disease"" and ""test positive"" is the answer to part b)."
+hqzxap04,textvis,2,5,20,4,8.75,5,56,male,professional school,no,no,65063,181000,181002, The positives are encircled and the true positives are shaded within the circle.
+hr006w3g,textvis,2,5,20,4,11,3,25,female,professional school,no,no,83193,181001,180970, Derived by using picture and logically.
+hqzxkfzk,textvis,2,5,20,4,12.5,5,24,male,high school,no,no,31631,138828,128683,Add 4 who have disease and test positive to 16 who do not have disease and test positive
+hqzrrfp4,textvis,2,4,20,4,9,4,39,female,high school,no,no,178274,181338,181343," I counted the number of people identified as testing positive (20), and I counted the number of people who actually have the disease (4)."
+hqzj36ot,textvis,2,5,20,4,5.25,6,21,female,high school,no,no,40992,177205,127434," I counted the number of people within the ""test positive"" box. Then I counted the number of people within that box that are marked as having the disease."
+hqzi0tgj,textvis,1,5,20,6,6.75,4,60,male,high school,no,no,58073,181462,181192, 4+16=20
+hqzyz0pv,textvis,0,5,4,6,7.5,3,30,male,college,no,no,71377,164502,104596, 
+hqzxzqan,textvis,0,4,30,20,-1,2,26,male,professional school,yes,yes,37804,104020,80616,-
+hr00vphm,textvis,2,5,20,4,1.25,4,23,male,college,no,no,28160,47368,22217, I derived my answers by looking at the diagram.
+hqziym3b,textvis,2,5,20,4,5,4,40,male,college,no,no,16368,154950,64575,"I think I am correct because the figures of 20, after adding up and 4 were very clearly spelt out there."
+hqzyxykt,textvis,2,5,20,4,9.25,3,52,female,college,no,no,98059,131876,91314,Had to add the 4 who tested positive from the ones who have the disease and the 16 who tested positive who don't have it to get the total people who tested positive since the question is base on 100 people.      
+hqzu2mb8,textvis,2,5,20,4,3.75,3,62,male,graduate school,yes,no,45105,181000,181051," It has already explained in the narration.And also clearly illustrated in the diagram.Out of the 100 people tested 20 will show positive.And out this 20,only 4 have disease.And out of 80 tested negative, 2 are actually positive. Hence the answers."
+hqzvfjei,textvis,0,5,80,20,13.75,5,28,male,college,yes,no,22074,126438,103265,Multiplication 
+hqzj1exd,textvis,0,3,4,2,-1.25,1,35,male,postdoctoral,no,no,40078,157631,83077, From the given scenario
+hqzypfzv,textvis,2,5,20,4,10,4,21,male,graduate school,no,no,43384,172809,121186, The answer can be figured out from the image given above. There are about 100 people taking the total number of positive tests and confirmed people are given. All we need to do is just count them.
+hqzxgjd4,textvis,1,3,16,4,-2.5,2,28,male,high school,no,no,32508,38047,52322,uncertain
+hqzttr64,textvis,1,5,20,6,2.5,4,51,female,high school,yes,no,33807,76220,60282," According to the explanation, of the 6 who have the disease, 4 test positive.  In addition, out of the 94 left, an additional 16 will test positive.  4 +16 = 20."
+hqzn7rdk,textvis,0,4,33,6,5,3,23,male,professional school,no,no,138631,150428,97893, i guess that the test has 33% error rate
+hqztg4ap,textvis,1,1,20,6,1.25,1,21,female,graduate school,no,no,12818,40950,44052, I just thought about it 
+hrfhbmtd,textvis,2,5,20,4,14.25,5,25,female,graduate school,yes,yes,54125,181053,181006,"I relied heavily on the chart. Because the chart depicts the same number of people as the question asks about, it was easy to use the visual to figure it out. "
+hrfgzmc2,textvis,1,5,20,6,10.5,5,24,male,college,no,no,17030,181001,78923,I just looked at the box picture and counted.
+hrffzpb6,textvis,2,5,20,4,13.75,4,23,male,graduate school,yes,yes,11869,135927,181005, from above figure
+hrfflxkm,textvis,2,5,20,4,3,2,32,male,high school,no,no,53582,181023,177230, Well 4 people will test positive that are positive and 16 who are not will test positive and 2 people that are positive will test negative. I just went by what I read above
+hrfhs4j9,textvis,1,5,20,2,7.5,5,18,male,high school,no,no,23460,181314,66827, It tells you in the scenario bro.
+hrfeagsy,textvis,2,5,20,4,6.5,3,23,male,graduate school,yes,yes,57831,181005,181003, from above sketch
+hrfggh9p,textvis,2,5,20,4,17,5,23,female,college,yes,yes,51291,181107,181099," The image shows 100 people who got tested, 20 of which received a positive test result, 4 of which were actually positive. Assuming this is a representative sample, repeated trials should get similar results."
+hrfgt9b2,textvis,2,5,20,4,0,5,19,female,college,no,no,28332,60674,25592, the people enclosed in the box is the number of people who will test positive. the people who have a shaded background and are ALSO in the box will actually have the disease.
+hrfgn7wu,textvis,1,5,18,4,8.75,5,35,male,college,no,no,23791,111672,89482, I used the data given to me. I added up all possible positives.
+hrfg88k8,textvis,2,5,20,4,4.5,5,44,male,college,no,no,66311,181339,181146, I used the infographic and counted the appropriate number.
+hrfibuh6,textvis,2,5,20,4,6.25,5,18,male,high school,no,no,33816,100521,82588," Out of the 6 who actually have it, four will test positive, plus the 16 healthy people who test positive for it."
+hrffq84a,textvis,2,5,20,4,10.25,5,26,male,college,no,no,29002,181002,161172," I looked at the visual representation of the people who have the disease and those who don't. It's clear to me that 2 people will have the disease and not test positive. 4 will test positive and have the disease. Finally, 16 will test positive and won't have the disease. The remaining 78 people will test negative and not have the disease. The picture was a lot easier to interpret than the text."
+hrffupx6,textvis,2,4,20,4,13,5,23,male,college,no,no,93515,181927,147642, i just read the given information. It specifically states that 20 people will test positive and out of the ones who test positive 4 people will actually have it.
+hrfhg6r1,textvis,0,1,32,64,10,2,27,male,high school,no,no,716277,99704,97204,"I'm not particularly good at math, so I just tried to pull from 100 people and see how many times 6 could go into 100 and figure it out from there. I confused myself along the way, But here's what I got. "
+hrfj13rj,textvis,2,5,20,4,9.75,4,52,male,college,yes,no,79969,181143,181105,I read the above paragraph and compared that data to the graphic above. Verified that my understanding matched the graphic and then simply derived my answers based on that.
+hrfd6t9s,textvis,2,5,20,4,8.25,4,20,male,high school,yes,yes,478130,181045,181047,"a)
+16 out of 94 are positive
+Remaining are 6 people.
+4 out of 6 test positive.
+4+16 = 20.
+
+b)
+Actual people with disease are 6. Only 4 are true positive, 2 failed to detect and the rest are false positives."
+hrffhy0v,textvis,2,5,20,4,4,6,55,male,high school,yes,no,25485,181034,180990," The diagram is very clear about who tests positive. They are circled. Besides that, the statement said 4 of the people who have the disease plus 16 who do not will test positive. 4 of the 6 who have the disease test positive."
+hrfg7w5e,textvis,2,5,20,4,15.75,5,33,male,college,yes,no,38401,167847,181016," I used the visual aid to count how many people were in the ""test positive"" box, including both infected and not-infected. Of those, 4 people actually had the disease, according to the visual aid."
+hrfgk95t,textvis,2,5,20,4,8.5,5,31,female,college,yes,no,32001,181092,181078,"Of the 6 who actually have the disease, only 4 will receive a positive result. If you add that to the 16 that test positive but don't have the disease, you get 20 people."
+hrfik00t,textvis,2,4,20,4,6.25,6,26,male,college,no,no,190812,167304,152177," The bracket for testing positive has 20 people in the selected area, and out of those 20 who tested positive, 4 had the disease"
+hrfiqs6l,textvis,1,3,20,6,3.75,5,30,female,college,no,no,98827,177366,153883, I counted using the visualization above.
+hrfhy0ie,textvis,2,4,20,4,14.75,4,26,male,college,no,no,38895,169085,129122,My answers were derived from using the visual aid. The visual aid used a population count of 100 people and since the question was also for 100 people I just assumed that the results would match up.  
+hrfirqvl,textvis,2,5,20,4,10,5,19,female,college,yes,yes,15439,137072,140395, I looked at the word problem and added the numbers that were associated to those who tested positive. Then I confirmed it with the visual guide. 
+hrfhgshp,textvis,2,5,20,4,10,5,29,female,college,no,yes,196965,181003,152420, I counted the number of people in the rectangle labeled Test Positive and out of those people 4 were darkened meaning they have the disease.
+hsm5vb0h,textvis,1,5,16,4,17.5,5,19,female,high school,yes,no,16527,181055,159620, In the visual you can see that there are 16 people testing positive to the disease and only four of those people really had the disease.
+hsm7ota0,textvis,2,4,20,4,13.75,5,24,male,graduate school,no,no,14687,124388,90060,"16 plus 4 is 20.
+The paragraph said 4 positives will test positive.
+"
+hsm7f7fv,textvis,1,3,20,6,7.5,5,33,female,high school,yes,no,96383,120586,110662, just added together what the scenario gave me
+hsm5ooul,textvis,2,5,20,4,12.5,5,27,male,high school,no,no,36985,97933,68950," Based on the information that I have, 20 people have been tested positive, but only four actually have the disease. These numbers are visually represented."
+hsm64n4p,textvis,2,5,20,4,8.75,5,36,male,college,no,no,23086,181039,181010,"I counted how many people there are in the Test Positive circle. Then in that circle I counted how many are shaded gray, or have the disease."
+hsm5l53q,textvis,1,5,20,6,13,5,37,male,high school,yes,no,222509,181030,181000," out of 100 people 6 will have it, 4 will show positive and those who don't 16 will show they do. 16 + 4 = 20
+
+"
+hqzjbrcj,unstructured,2,5,20,4,7.5,5,35,male,college,no,no,19482,93480,68788, It is clearly stated above
+hqzsa8wh,unstructured,2,4,20,4,9,5,47,male,graduate school,yes,no,71587,180999,149627,"Out of the 100 people in the population, 20 people will test positive. Out of these 20 people, 4 will actually have the disease and 16 will not have the disease (i.e., they are perfectly healthy). "
+hqzphect,unstructured,2,5,20,4,10,3,34,female,high school,no,no,264213,96736,143106," Because in the scenario it says that out of 100 people in the population 20 people would test positive, but only 4 would actually have the disease."
+hqzsm6oq,unstructured,2,5,20,4,18.75,6,26,female,college,no,no,19470,93167,119051," I derived my answer from this quote: ""Another way to think about this is... Out of the 100 people in the population, 20 people will test positive. Out of these 20 people, 4 will actually have the disease"""
+hr00e9h3,unstructured,2,5,20,4,12,5,19,male,college,no,no,13269,181011,181025, I simply looked at the information presented. It's basically laid down word for word in the last paragraph.
+hqzskord,unstructured,2,5,20,4,11.5,4,47,male,high school,no,no,37035,181017,181008, I read the last paragraph one more time.
+hqzkh8si,unstructured,2,4,20,4,13,5,18,male,high school,no,no,69912,165403,181213, The answers were practically handed to me in the scenario.
+hqzhb379,unstructured,2,5,20,4,6.25,4,33,female,college,no,no,16320,149375,98156, It was clearly mentioned that 20 people will have positive test results and 4 out of them will actually have the disease.
+hqzkadgy,unstructured,2,5,20,4,12.5,4,39,male,graduate school,no,no,22563,149765,70167," it's 16 & 4 which comes to 20 people. also from the 6 tested, only 4 are positive."
+hqzo427s,unstructured,1,5,4,4,-3.5,2,56,female,college,no,no,248385,151174,106759," 4 people test positive
+ All 4 actually have the disease, including 2 who tested negatively
+
+"
+hqzlvfhq,unstructured,2,5,20,4,6.25,4,31,female,graduate school,no,yes,24867,127438,97031, The scenario itself provides the answer for 100 people. It says if 100 people is tested the 20 people will test positive and out of 20 4 will actually have disease and 16 will not have the disease
+hqzw1igj,unstructured,2,2,20,4,16.75,5,25,female,college,yes,no,13676,181088,159914,"Without more information to show how accurate the test is, we can only assume that it would provide the same type of results in another population."
+hqzi26tf,unstructured,0,4,4,6,-1.25,1,25,male,college,yes,yes,113983,71936,77748, i can solve this because of i had a knowledge in puzzle level games.
+hqzi2kii,unstructured,1,4,20,24,2.5,1,27,female,graduate school,yes,no,103852,179738,151639, Its all depends on the permutation as explained in the above
+hqzjarif,unstructured,2,5,20,4,11.75,5,26,female,graduate school,yes,yes,22814,157225,124629, The answer was basically given in the prompt since we were dealing with a population of 100 people.
+hqzku6l5,unstructured,2,5,20,4,10,4,25,female,college,yes,no,61902,180998,181004,"Out of the 100 people in the population, 20 people will test positive. Out of these 20 people, 4 will actually have the disease and 16 will not have the disease "
+hqzhjtzc,unstructured,0,5,6,100,7.5,2,29,male,college,no,yes,22454,85954,49336, i am sure in my answers
+hqzp8yy6,unstructured,2,5,20,4,11.75,4,23,male,college,no,no,32345,180999,181016, Out of 100 people 20 will test positive and 4 will actually have it 
+hqzsa3fi,unstructured,1,5,20,6,2.5,3,22,male,college,no,no,292429,181422,181045," As per the above scenario, out of 100 people 6 people are directly receiving positive test result. Those 94 people that do not have disease, out of these 16 are receiving positive test result. So total of 20 are receiving positive test result. We can conclude from the last two paragraphs that 6 people are actually having the disease.   "
+hqzk8shz,unstructured,0,2,4,3,13.75,6,28,male,graduate school,no,no,6552,96554,88524,-
+hqzp9cjc,unstructured,0,5,16,78,1.25,1,21,male,college,no,no,25757,55879,42210, from the article read above 
+hqzpmv94,unstructured,2,5,20,4,9,5,34,male,college,no,no,12539,118013,145085, I read the paragraph and it tells you the answer in the last sentence
+hqzjcdjp,unstructured,2,5,20,4,14,4,32,male,professional school,no,no,745682,181002,121830," Well it quite clear here; 
+1. Out of the 100 people in the population, 20 people will test positive. 
+
+2.  Out of these 20 people, 4 will actually have the disease"
+hqzsnezq,unstructured,2,5,20,4,11.25,4,40,male,college,no,no,18503,116848,94122,I used the data provided in the scenario 
+hqzwc0wp,unstructured,0,5,4,6,1.25,1,24,male,graduate school,no,no,40111,132391,29434, yes iam beliving my answers are true
+hqzjp1rv,unstructured,2,4,20,4,5.75,6,26,female,graduate school,no,no,21133,181009,181016,I derived my answers straight from the text.
+hqzl6964,unstructured,2,5,20,4,11.25,5,20,female,high school,no,no,11658,127434,127030, I got my answer from the above information when I had looked at it. It said that only four people will have the disease if they tested positive in the first place.
+hr001xzw,unstructured,2,5,20,4,5,5,27,male,graduate school,no,no,18791,109357,86799, I derived the information from the article above.
+hrffqrux,unstructured,2,5,20,4,16.75,5,27,male,high school,no,no,15075,130471,147014,The answers are right there in the text.
+hrfihdbo,unstructured,2,5,20,4,12.5,5,38,female,high school,no,no,22681,176435,115597, I got them from reading the passage
+hrfichyb,unstructured,2,4,20,4,12.5,5,19,male,college,yes,yes,42968,147422,134341,"4/6 sick people positive
+16/100 healthy people positive
+16+4=20"
+hrfirm3u,unstructured,2,5,20,4,12.5,5,31,male,college,no,no,31628,181001,181001, Paragraph 3 clearly states this information.
+hrffc9h2,unstructured,1,4,16,4,6.25,3,25,male,college,no,no,119325,96066,59715," It took me a minute but it says 6 people have the disease, but 2 of them tested in the negative so they're moot.  It says 16 receive a positive result so that's the answer to A, and the 4 of the 6 actually have it are in that positive so there we go."
+hrfhe3eh,unstructured,0,1,4,2,5,4,30,male,college,no,no,70832,92805,67082,because I am kinda confused
+hrff9nzh,unstructured,2,5,20,4,11.75,5,25,male,college,yes,no,11607,181025,143406,"It's explicitly explained right there, I didn't even have to do math."
+hrfda1fj,unstructured,0,5,94,6,12.5,2,25,male,graduate school,no,no,77439,142056,155849," It is clear that out of 100 6 infected and 94 ade healthy, so that i answered as this."
+hrffk92p,unstructured,1,5,20,6,12.5,5,33,male,PhD,no,no,12934,153705,121671, It is written in the scenario above where the question is. 
+hrfg7xjn,unstructured,2,5,20,4,8,6,31,female,college,no,yes,34742,181015,181020, The scenario described said that 20 people will test positive out of 100 and that 4 will actually have the disease.
+hrfiehgq,unstructured,2,5,20,4,7.5,5,54,female,college,no,no,17566,155995,83132," Information provided: Out of the 100 people in the population, 20 people will test positive. Out of these 20 people, 4 will actually have the disease and 16 will not have the disease (i.e., they are perfectly healthy)."
+hrfggz6u,unstructured,2,4,20,4,12,5,25,female,high school,no,no,10072,181009,180982,"Literally just read it and was given this information? I figure I'm not at 5, just because it's possible the question is asking about a different group of 100."
+hrfipzqt,unstructured,2,5,20,4,13.25,5,22,female,college,no,no,25778,180979,181006, I derived my answers from the explicitly given information.
+hrfhvrg3,unstructured,2,4,20,4,15,5,29,male,college,no,-,28657,180059,147268," I used the information provide, but maybe the actual results would vary. "
+hrffmvqe,unstructured,2,4,20,4,12.75,5,19,male,college,yes,yes,78432,181121,181106," For part A, only 4 people out of the 6 who have the disease test positive, and 16 out of the 94 who do not have the disease test positive. Then you add the 4 and the 16 to get 20 testing positive. For part B, only 4 people tested positive have the disease."
+hrfexkl2,unstructured,2,5,20,4,5,5,57,male,college,no,no,57144,181157,181123," I just duplicated the experiment aforementioned "" Another way to think about this is..."" which seemed to describe an identical experiment.  "
+hrfhhrae,unstructured,2,5,20,4,15.25,5,21,male,high school,yes,no,33147,161222,178199,It tells me above.
+hrfhg8kq,unstructured,0,5,4,6,1.5,4,24,female,college,no,no,35739,124662,88495,I derived the answer from the scenario above. 
+hrfh0w4i,unstructured,1,3,20,8,5,4,43,male,high school,no,no,335447,132621,103278,"The first paragraph says 20 will test positive and 6 will have the disease. those who test negative 2 will have the disease . So , the answer would be 8"
+hrfi4cm1,unstructured,2,5,20,4,7.5,4,34,male,high school,yes,no,44373,179725,174890, The info given stated that 20% will test positive and only 4 will actually have it.
+hrfih8ep,unstructured,0,5,16,6,3.75,5,41,male,high school,no,no,51071,164514,46489, i looked at the paragraphs above.
+hrffd2ja,unstructured,2,5,20,4,12.25,5,32,male,college,no,no,90614,181000,180958,"Unless I'm confused, the information in the scenario provided this information.  6 people have the disease, 4 will test positive (b).  16 who don't have the disease will test positive, 4 who do will test positive (a)."
+hrfitsk2,unstructured,2,5,20,4,0,4,33,male,college,no,no,24520,164365,161726, By reading the scenario provided.
+hrfeca3r,unstructured,2,1,20,4,11.5,5,22,female,graduate school,no,no,48459,181001,163047," In the previous scenario, the 80% of people would test negative, than the simply conclusion is that 20% would test positive. Out of 20% positive, the scenario said that 20% would actually will have the disease. Based on that statistic, I calculated the answers for the question. "
+hrfiw4pl,unstructured,2,4,20,4,10,3,23,male,high school,no,no,44460,108059,64997,-
+hrffn8q9,unstructured,2,5,20,4,10.5,5,30,female,graduate school,no,no,23749,159389,106956,I came to the conclusion based on the information above that clearly states the outcome based on 100 people.
+hrff18z5,unstructured,2,5,20,4,11.25,4,23,male,graduate school,yes,yes,34013,181007,181002, its already given in the scenario
+hrfff98b,unstructured,2,5,20,4,12,4,23,male,graduate school,yes,yes,22457,181006,180999, its given in the senario
+hrffqpev,unstructured,2,5,20,4,10,6,29,female,PhD,no,no,29489,125648,88501, I basically used reasoning skills and looked at the wording carefully in the question. Reading comprehension.
+hrfisz1g,unstructured,2,5,20,4,9.25,6,24,female,college,yes,yes,19339,181024,181010, I added together the 4 people who will have the disease that actually tested positive and the 16 of 94 who will test positive although they are actually negative.
+hrfgoa8c,unstructured,2,5,20,4,14.75,5,22,male,college,yes,yes,20353,181001,181001, Answer is given in the example.
+hrff9mh2,unstructured,2,4,20,4,12.5,5,31,male,high school,no,no,59239,181012,181015," Out of 100 people 6 will actually have the disease, but only 4 of those 6 people will have a positive test result, since the testing is not perfect."
+hrffid9t,unstructured,2,5,20,4,13.25,5,55,female,college,no,no,34354,181119,181090,"Well the 1st part was given to us in the last paragraph, but it could be figured out. Of the 6 who had disease 4 test positive, out of those who do not have it, 16 will test positive - 4 + 16 = 20. Out of the 20, the 4 have the disease."
+hrfhzbps,unstructured,2,5,20,4,11.25,5,27,male,college,no,no,61809,148700,55005, The answers are essentially given in the 3rd paragraph.
+hqzvgl9m,vis_only,1,3,20,5,-2.5,5,45,female,college,no,no,46812,108237,85372," Looking at the visual data above, I tried to break down the amount of people who would get the disease. I  used the chart and my own logic."
+hqzupjlx,vis_only,2,5,20,4,11,3,24,female,college,yes,yes,7760,181090,181114, The people who will test positive are in the outline area because that is where the arrow is pointing to. There are 20 people in the outlined area. Everyone in that area will test positive. Those who have the disease have a gray shading behind them. The number of people who have a gray shading and that are in the outlined area are 4. 
+hqzi2vz6,vis_only,2,5,20,4,9.75,5,35,male,graduate school,no,no,116094,181265,166359,I just wrote what is displayed in the visual presentation. 
+hqzjvqz7,vis_only,2,5,20,4,9,5,43,male,professional school,no,no,31222,181125,181070,"TOTAL POPULATION IS 100
+AROUND THAT 20 TAKEN AS POSITIVE
+TOTAL DISEASE IS 6 OUT OF 100
+TOTAL DISEASE IS 4 OUT OF 20 POSITIVE"
+hqzs2icq,vis_only,2,4,20,4,13.75,5,23,female,high school,no,no,35492,105901,98262,I gained my answers by looking at the research.
+hr01lhuv,vis_only,2,5,20,4,13,5,27,female,graduate school,no,no,86260,180993,151525," The image above depicts the 100 people tested, with the light gray depicting those without the disease and the dark grey depicting those with the disease. The smaller rectangle shows the 20 people testing positive, with 4 of those people in the dark grey representing those with the disease. "
+hr001s8l,vis_only,2,4,20,4,9.5,4,27,male,graduate school,no,no,49250,181030,181028, Above given example tells that out of 100 persons 4 have disease and remaining 16 also found test positives so total 20 positive but actually only 4 have the disease
+hqznkky1,vis_only,2,4,20,4,5,4,26,male,professional school,no,yes,99596,172988,118713,I used the method of percentages to calculate the results. 
+hqzh0lic,vis_only,2,4,20,4,6.25,5,56,male,college,no,no,75064,180973,172955, Counted the 16 people in rectangular section and added the four who have disease. I assumed those w/disease would test positive.
+hqznecjp,vis_only,2,5,20,4,5.75,1,53,female,college,no,no,113155,181037,108570, Took the information from the graph.
+hqzp33sz,vis_only,2,4,20,4,13.25,4,22,female,high school,no,no,42074,181002,181005," I counted the image above. 20/100 test positive, and 4 of those 20 have the disease."
+hqzhkos1,vis_only,2,4,20,4,12,4,41,female,high school,no,no,43335,181001,181002," I looked and the chart and counted.  I'm making the assumption ( and yes, I know how that works out sometimes) that the entire box was tested, even though it doesn't specifically say that."
+hqzqj9vd,vis_only,2,5,20,4,2.5,4,63,male,high school,no,no,34948,181006,180996, The circled part of the graph is the pertinent section relating to the question; 20 are is the circle of which 4 have the disease.
+hqzugyml,vis_only,2,5,20,4,16.25,5,27,male,college,no,no,48681,111725,105422, The chart above.
+hqzvuqgr,vis_only,1,5,20,5,1.75,3,25,male,college,no,no,39669,181610,181793, 
+hqzto0o7,vis_only,0,5,5,1,6.5,4,22,male,graduate school,no,no,501295,98050,115109,"the sample population =100
+x/100 = population is tested
+y = number of people have tested positive
+x-y = positive patient"
+hqzulkcl,vis_only,1,1,20,5,0,5,30,male,college,no,no,156234,132441,172946," I just took a guess based on what I see in the picture above, as it is mentioned in the scenario that the test is not perfect so there isn't actual way of knowing for sure that how many people are really infected."
+hqznducw,vis_only,1,5,22,4,6.25,4,50,male,college,no,no,32767,121970,115578, dark objects grouped with ellipsoid = desired match
+hqzvs9or,vis_only,2,5,20,4,5.25,6,26,female,professional school,yes,yes,60944,173075,117758," There are 100 people in the model, so I just counted the number marked."
+hqzsdk5n,vis_only,2,5,20,4,11.75,4,22,female,college,yes,no,49896,151031,91661," The visual aid clearly shows how many people have been tested, and how many people actually have the disease. "
+hqzxjaqu,vis_only,2,5,20,4,0.75,6,30,male,college,no,no,33963,163537,180999," I counted them manually. I know that the rectangle is 20x5. So if I count each person individually, I have my answer."
+hqzinj9p,vis_only,1,5,20,6,11.75,4,25,male,graduate school,no,no,55302,181014,149156, From the information given above we can judge that the positive test results will be 20 and the actual people having the disease will be 6
+hqzy599n,vis_only,2,5,20,4,13.25,4,33,male,PhD,yes,no,36975,181121,181109, As per the picture I counted the number of people who will test positive & who will actually have the disease. 
+hqzu1esm,vis_only,1,5,16,4,2.75,3,31,male,college,no,no,104765,177593,154627,I believed that I delivered my answer correctly.
+hqzxhzfx,vis_only,1,3,20,6,2.5,2,44,female,graduate school,no,no,23887,181000,181001, As per chart I derived my answer.
+hqzmy0uy,vis_only,2,4,20,4,3.25,4,28,female,college,no,no,53783,183196,192726," The chart shows a population of 100. Out of that 100, 20 test positive. Out of those that test positive, 4 actually have the disease."
+hqzuyh77,vis_only,1,4,20,6,6.5,4,28,male,graduate school,no,no,70968,106813,82365, I counted the no of people marked under the test positive box and the people who are highlighted in grey for the people who have disease.
+hqzzwatc,vis_only,1,4,10,4,8,5,25,male,high school,no,no,58803,134814,99388, I used the graph above to find an answer
+hqziyrxm,vis_only,1,3,16,4,3.75,1,35,female,high school,no,no,74172,102537,41724, I used the chart above to come up with my answers.
+hqzvv61f,vis_only,1,4,20,6,-2,3,59,female,college,no,no,642106,180995,73969, Looking at the diagram out of 100 people tested an arrow labeled test positive is pointing to a circle of people that totals 20. Of those who tested positive who actually have the disease the diagram represents these people with an arrow labeled have disease and those individuals are darkened within the diagram totaling 6.   
+hrfgz9if,vis_only,0,3,10,3,11,4,31,female,college,yes,yes,209934,178128,142658, I counted how many people were in the sample graph (200) and divided by 2 (for the 100 people in the question). Then I counted the people in the sample graph who tested positive (20) and divided by 2 (which gave me 10). And I did the same thing for those who have the disease.
+hrfj1m3c,vis_only,2,-,20,4,7.5,5,26,male,graduate school,no,no,40792,179103,98577,just count out the people.
+hrffcf9x,vis_only,2,4,20,4,14,5,22,male,college,yes,no,41815,181023,166706," There are 100 people in the diagram, so the answers are right there."
+hrfh9d5m,vis_only,2,5,20,4,11.25,5,35,male,high school,no,no,74952,181006,181002, there are 100 people shown in the visual aid and 20 are in the circle that tested positive while 4 of those are in the have disease group.
+hrfh0umr,vis_only,0,2,60,6,7.5,4,30,female,college,yes,no,117407,131167,77153," I basically used the chart above and counted how many had it, and how many tested positive for it."
+hrfiw587,vis_only,1,5,16,4,6.25,5,26,male,high school,no,no,27456,68706,38030, HONESTLY I COUNTED THE LITTLE PEOPLE IN THE DIAGRAM.
+hrfgvf08,vis_only,2,5,20,4,14.5,5,21,male,college,no,no,46297,181021,181015, just counted the people in the image
+hrfgyd9x,vis_only,2,5,20,4,6.25,3,39,female,college,no,no,28840,50746,37055," Above shows 100 people. Inside a rectangle is shown the number testing positive.  Inside that rectangle, shaded a darker color, are the ones who have the disease."
+hrffslor,vis_only,2,5,20,4,14.5,5,28,male,graduate school,yes,yes,44371,181094,181071, I counted the people in the appropriate boxes
+hrfhl4p0,vis_only,2,5,20,4,3.75,4,30,male,college,no,no,109081,136288,148807," There was a chart. The charcoal people had disease, grayed out and boxed tested positive. Others outside of these 2 groups did not have the disease."
+hrfg16qn,vis_only,1,3,16,4,-2.5,5,48,female,college,no,no,69355,94546,94810, I counted the group that test positive and the group that have the disease
+hrfgme05,vis_only,2,5,20,4,8.75,3,38,male,college,no,no,22648,124584,153045, I came to the answer by looking at the above graphic.
+hrffp8tl,vis_only,2,5,20,4,7.5,5,49,male,college,no,no,20481,165582,141154, Took the total population and noted the number that tested positive and those who actually had the disease within those who tested positive.
+hrfflt8v,vis_only,2,5,20,4,3.5,5,26,male,college,no,no,39559,181001,181000,It was easy to see that 20 people tested positive and 4 people tested positive and actually had the disease.
+hrfi4deo,vis_only,2,5,20,4,6.75,5,23,male,high school,no,no,29498,173038,128694,"20 people were circled out of 100. Out of that 100, 20 were circled for testing positive. In the circle of people who tested positive, 4 were grayed showing to actually have the disease."
+hrfhl27w,vis_only,2,5,20,4,15,5,29,female,graduate school,no,no,17488,140805,99491," Based on the scale, 20 people would be in the 'test positive' group, and 6 would actually have the disease. Therefore according to those numbers, 4 would actually have it and test positive."
+hrff5igh,vis_only,2,5,20,4,14.25,4,52,male,college,yes,no,38992,181093,144644, counted the people in the boxes. The test only shows 20 positives while it misses two positives. 
+hrfinbmh,vis_only,2,5,20,4,10,5,24,male,college,no,no,21721,181028,181077," I just counted up the number of people included in the ""test positive"" box. Then I looked at how many people in that box were shaded gray and had the disease."
+hrfg7vg0,vis_only,2,4,20,4,9.25,5,28,female,college,yes,no,19501,180996,181006, By counting the little figures in the drawing.
+hrff6t56,vis_only,2,5,20,4,8,4,38,male,high school,yes,yes,32163,181001,126746,"Just by interpreting the information given--by looking at the number of people (highlighted in gray) within the ""Test Positive"" box."
+hrffwy64,vis_only,2,5,20,4,9.5,5,22,male,college,yes,yes,98426,181186,157459," Well, there are 100 people in the graph and there are 20 tested positive. So that's how I got my answers"
+hrfgaq53,vis_only,2,5,20,4,10.25,6,24,male,graduate school,no,no,38179,181024,166784,"My answers are just a simple interpretation of the picture shown. There are 100 people in the total population, and the picture shows 20 of them testing positive (i.e., the answer to the first question.) Of those, it shows 4 actually having the disease (the answer to the second question.)"
+hsm6041i,vis_only,2,5,20,4,5,5,25,female,high school,no,no,16736,83422,72104, it is pretty clear from the picture that my answers are right
+hsm6247j,vis_only,1,4,20,6,6.25,5,24,male,college,no,no,86647,128602,87080,"I looked at how many tested positive and how many actually have the disease. It showed that even if the test didn't show it, it's still possible that they have it. "
+hsm5wtvo,vis_only,2,5,20,4,13.75,5,26,male,college,yes,no,19012,181046,178767," 20 of the 100 people in the chart are circled as testing positive; of those 20, 4 actually have the disease."
+hsm768o2,vis_only,2,5,20,4,12.25,5,31,female,college,no,yes,44781,181191,181176, By counting the little people in the diagram
+hsm63k8z,vis_only,2,5,20,4,1.25,4,33,female,high school,no,no,23575,29321,16291, I estimated that there were 100 people in the graphic above.
+hsm6360y,vis_only,2,4,20,4,13.75,5,29,male,college,no,no,26955,148428,181056," I count the row and column to find the total number of people, which turned out to be 100. I think noticed those in the box for test positive, and noticed the 4 that were darkened in the text positive box. "
+hsm7jy42,vis_only,2,3,20,4,5,5,24,male,college,no,no,30948,161141,98249, By using the provided picture.
+hsm6z9cv,vis_only,2,5,20,4,15.25,5,39,male,college,no,no,25346,180362,181111," the graphic above shows that out of 100,20 test positive and only 4 of the 20 are listed as having the disease, 2 who have it have been excluded from the selction."
+hsm7dupo,vis_only,2,5,20,4,17.5,5,18,male,college,no,no,11419,122721,115625,I looked at the provided graphic for my answers.
+hsm76aly,vis_only,2,5,20,4,13.5,5,27,male,college,no,no,43209,181078,181096," I first determined the population by multiplying row and column lengths.  After determining it to be 100, I determined the subset of the population that will test positive through the same means.  Finally, I looked at the positive-testing subset and accounted for those that actually have the disease."
+hsm7pslv,vis_only,2,5,20,4,11.75,5,21,male,high school,no,no,44315,181061,181028, I derived my answer simply by analyzing the graphic
+hsm7i2jj,vis_only,2,5,20,4,10.5,5,43,female,high school,yes,no,62236,181078,181097, The example provided is marked very clearly.
+hsm77ly8,vis_only,0,4,22,6,10,6,20,male,college,no,yes,52381,179346,146916, Counting the total population. part a) is the positive tests and the people who have the disease. part b) is the number of people with the disease.
